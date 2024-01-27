@@ -1,0 +1,34 @@
+body {
+    font-family: 'Times New Roman','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/table.png");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+/* I changed the theme of the game, using a blue background and red buttons to give a casiono aesthetic to it*/
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    font-family: 'Times New Roman','sens serif';
+    color: #77C3EC; 
+    width: 150px;
+    background: linear-gradient(to right, #FF0000, #990000);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+/*button hover to make the webApp more interactive*/
+button:hover{
+     transform: scale(0.9);
+}
